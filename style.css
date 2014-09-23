@@ -1,0 +1,112 @@
+/*-----------[ Overwrite ]-----------*/
+html, body {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
+}
+.clear {
+	clear: both;
+}
+textarea {
+    resize: none;
+}
+a {
+	color: #f39c12;
+	transition: color 0.5s ease;
+}
+a:hover, a:focus {
+	color: #d35400;
+}
+::selection {
+	color: #fff;
+	background: #f39c12; /* Safari */
+}
+::-moz-selection {
+	color: #fff;
+	background: #f39c12; /* Firefox */
+}
+
+/*-----------------------------------
+ *		Default Desktop Screen
+ *-----------------------------------*/
+/*-----------[ Header ]-----------*/
+header {
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	z-index: 100;
+	background: #fff;
+}
+
+/*-----------[ Rotator ]-----------*/
+#instafeed {
+	width: 100%;
+	height: 550px;
+	position: fixed;
+	top: 50px;
+	z-index: 2;
+}
+#instafeed a {
+	text-decoration: none;
+}
+#instafeed #caption {
+	width: 30%;
+	min-height: 104px;
+	position: absolute;
+	top: 75%;
+	right: 20%;
+	color: #fff;
+	font: 16px/22px'Open Sans', sans-serif;
+	z-index: 2;
+	background: url('images/instafeed_quote.png') no-repeat right top;
+}
+#instafeed #caption span {
+	width: 100%;
+	margin-top: 33px;
+	display: block;
+}
+#instafeed #bg {
+	width: 200%;
+	height: 200%;
+	left: -50%;
+	top: -50%;
+	position: fixed;
+	background: #000;
+}
+#instafeed #bg img {
+    min-height: 50%;
+    min-width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+	bottom: 0;
+    left: 0;
+    margin: auto;
+    opacity: 0.5;
+}
+
+/*-----------[ Home Content ]-----------*/
+#home-content-wrapper {
+	width: 100%;
+	position: relative;
+	z-index: 2;
+	background: #fff;
+	height: 300px;
+	top: 600px;
+}
+.home-content-container {
+	width: 900px;
+	margin: 0 auto;
+}
+#home-content-wrapper h1 {
+	float: left;
+	margin: -150px 0 0;
+	padding: 0;
+	color: #fff;
+	font: 700 182px/182px 'Puritan', sans-serif;
+	opacity: 0.4;
+}
